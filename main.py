@@ -30,7 +30,7 @@ app_mode = st.sidebar.selectbox('Select Page',['Home','Prediction'])
 ### I) Home part of the script  
 if app_mode=='Home':
     st.title('Welcome to the loan prediction laboratory :')
-    st.image('loan.png') 
+    #st.image('loan.png') 
     st.write('This app is an introduction on how to deploy code on streamlit.')
     st.write('It is predicting if a customer should be attributed a loan. The model behind is a random forest model')
     st.markdown("### This App in fewsteps : ")
