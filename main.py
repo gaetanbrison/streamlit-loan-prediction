@@ -43,7 +43,8 @@ if app_mode=='Home':
 
     st.markdown('Dataset :')
     data=pd.read_csv('loan_dataset.csv')
-    st.write(data.head())
+    #st.write(data.head())
+    st.dataframe(data)
 
 
 
